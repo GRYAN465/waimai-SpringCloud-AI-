@@ -1,0 +1,9 @@
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\config\RabbitConfig.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\entity\OrderEntity.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\client\ProductClient.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\dto\PlaceOrderRequest.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\client\UserClient.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\controller\OrderController.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\repository\OrderRepository.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\OrderServiceApplication.java
+E:\练习\Cloud\cloud-service-order\src\main\java\com\cloudtakeout\order\config\SentinelRuleConfig.java

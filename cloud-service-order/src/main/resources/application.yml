@@ -1,0 +1,34 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: cloud-service-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8858
+        port: 8719
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/takeout_order?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: basic
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
