@@ -119,23 +119,10 @@ npm run dev
 Authorization: Bearer <上一步返回的token>
 ```
 
-如果你走 Nginx，也可以用以下地址（推荐联调时统一入口）：
+如果走 Nginx，也可以用以下地址：
 
 - `POST http://localhost/api/auth/login`
 - `GET http://localhost/api/users/1`
 - `GET http://localhost/api/products/1`
 - `POST http://localhost/api/orders`
 
-## 7. 推荐学习路径（下一步）
-
-建议你在这个骨架上按顺序迭代：
-
-1. 商品扣库存 + 订单状态流转（CREATED/PAID/CANCELLED）
-2. 引入 Seata 实现分布式事务
-3. 把 Sentinel 规则迁移到控制台动态推送
-4. 把配置迁移到 Nacos 配置中心
-5. 增加统一日志链路（TraceId）与监控（Prometheus + Grafana）
-
----
-
-这个项目重点是“让你先跑通微服务链路”，所以实现保持简化但结构是标准可扩展的。
