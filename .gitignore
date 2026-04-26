@@ -1,0 +1,21 @@
+# Frontend dependencies
+frontend-vue3/node_modules/
+
+# Frontend build output
+frontend-vue3/dist/
+frontend-vue3/.vite/
+
+# Logs
+frontend-vue3/npm-debug.log*
+frontend-vue3/yarn-debug.log*
+frontend-vue3/yarn-error.log*
+frontend-vue3/pnpm-debug.log*
+
+# Environment files
+frontend-vue3/.env
+frontend-vue3/.env.*
+!frontend-vue3/.env.example
+
+# Editor/OS
+.DS_Store
+Thumbs.db
