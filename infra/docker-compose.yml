@@ -4,9 +4,10 @@ services:
     container_name: nacos
     environment:
       - MODE=standalone
-      - SPRING_DATASOURCE_PLATFORM=mysql
     ports:
       - "8848:8848"
+      - "9848:9848"
+      - "9849:9849"
 
   mysql:
     image: mysql:8.0

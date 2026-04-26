@@ -1,4 +1,7 @@
-com\cloudtakeout\auth\controller\AuthController.class
-com\cloudtakeout\auth\dto\LoginRequest.class
+com\cloudtakeout\auth\dto\RegisterRequest.class
 com\cloudtakeout\auth\util\JwtTokenUtil.class
+com\cloudtakeout\auth\repository\AuthUserRepository.class
+com\cloudtakeout\auth\controller\AuthController.class
+com\cloudtakeout\auth\entity\AuthUserEntity.class
+com\cloudtakeout\auth\dto\LoginRequest.class
 com\cloudtakeout\auth\AuthServiceApplication.class

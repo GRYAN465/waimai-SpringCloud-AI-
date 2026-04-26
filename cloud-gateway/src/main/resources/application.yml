@@ -37,3 +37,9 @@ spring:
             - Path=/api/orders/**
           filters:
             - StripPrefix=1
+        - id: agent-service
+          uri: http://127.0.0.1:9010
+          predicates:
+            - Path=/api/agent/**
+          filters:
+            - StripPrefix=1

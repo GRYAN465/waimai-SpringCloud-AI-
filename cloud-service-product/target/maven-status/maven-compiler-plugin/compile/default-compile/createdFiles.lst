@@ -1,4 +1,6 @@
-com\cloudtakeout\product\entity\ProductEntity.class
 com\cloudtakeout\product\controller\ProductController.class
-com\cloudtakeout\product\ProductServiceApplication.class
 com\cloudtakeout\product\repository\ProductRepository.class
+com\cloudtakeout\product\service\ProductCacheService.class
+com\cloudtakeout\product\entity\ProductEntity.class
+com\cloudtakeout\product\ProductServiceApplication.class
+com\cloudtakeout\product\dto\UpdateSalesRequest.class

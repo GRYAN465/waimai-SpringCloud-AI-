@@ -4,6 +4,7 @@ public class PlaceOrderRequest {
     private Long userId;
     private Long productId;
     private Integer count;
+    private String remark;
 
     public Long getUserId() {
         return userId;
@@ -27,5 +28,13 @@ public class PlaceOrderRequest {
 
     public void setCount(Integer count) {
         this.count = count;
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
     }
 }

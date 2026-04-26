@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @TableName("t_order")
 public class OrderEntity {
@@ -14,6 +15,8 @@ public class OrderEntity {
     private Integer count;
     private BigDecimal totalAmount;
     private String status;
+    private LocalDateTime orderTime;
+    private String remark;
 
     public Long getId() {
         return id;
@@ -61,5 +64,21 @@ public class OrderEntity {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public LocalDateTime getOrderTime() {
+        return orderTime;
+    }
+
+    public void setOrderTime(LocalDateTime orderTime) {
+        this.orderTime = orderTime;
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
     }
 }

@@ -1,5 +1,7 @@
+com\cloudtakeout\user\dto\UpdateUserProfileRequest.class
 com\cloudtakeout\user\controller\UserController.class
-com\cloudtakeout\user\mq\OrderCreatedConsumer.class
-com\cloudtakeout\user\UserServiceApplication.class
+com\cloudtakeout\user\config\RabbitConfig.class
 com\cloudtakeout\user\repository\UserRepository.class
 com\cloudtakeout\user\entity\UserEntity.class
+com\cloudtakeout\user\mq\OrderCreatedConsumer.class
+com\cloudtakeout\user\UserServiceApplication.class

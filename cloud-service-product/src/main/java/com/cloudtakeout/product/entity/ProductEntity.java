@@ -11,6 +11,9 @@ public class ProductEntity {
     private String name;
     private BigDecimal price;
     private Integer stock;
+    private String spicyLevel;
+    private Integer sales;
+    private String description;
 
     public Long getId() {
         return id;
@@ -42,5 +45,29 @@ public class ProductEntity {
 
     public void setStock(Integer stock) {
         this.stock = stock;
+    }
+
+    public String getSpicyLevel() {
+        return spicyLevel;
+    }
+
+    public void setSpicyLevel(String spicyLevel) {
+        this.spicyLevel = spicyLevel;
+    }
+
+    public Integer getSales() {
+        return sales;
+    }
+
+    public void setSales(Integer sales) {
+        this.sales = sales;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

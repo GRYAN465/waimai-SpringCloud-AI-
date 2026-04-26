@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-service-user" />
-        <module name="cloud-common" />
-        <module name="cloud-service-auth" />
         <module name="cloud-service-order" />
         <module name="cloud-service-product" />
+        <module name="cloud-service-agent" />
+        <module name="cloud-common" />
+        <module name="cloud-service-auth" />
         <module name="cloud-gateway" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-service-agent" options="-parameters" />
+    </option>
   </component>
 </project>

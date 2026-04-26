@@ -1,0 +1,23 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: cloud-service-agent
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: qwen3-max
+      embedding:
+        options:
+          model: text-embedding-v4
+          dimensions: 1024
+
+agent:
+  service:
+    user-base-url: http://localhost:9001
+    product-base-url: http://localhost:9002
+    order-base-url: http://localhost:9003

@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/cloud-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-agent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-order/src/main/java" charset="UTF-8" />

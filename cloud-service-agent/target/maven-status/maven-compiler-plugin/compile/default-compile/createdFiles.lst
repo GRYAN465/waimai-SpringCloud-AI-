@@ -1,0 +1,15 @@
+com\cloudtakeout\agent\entity\query\OrderItemRequest.class
+com\cloudtakeout\agent\constants\SystemConstants.class
+com\cloudtakeout\agent\entity\query\MenuQuery.class
+com\cloudtakeout\agent\tools\OrderAgentTools$2.class
+com\cloudtakeout\agent\OrderAgentApplication.class
+com\cloudtakeout\agent\entity\vo\ProductVO.class
+com\cloudtakeout\agent\tools\OrderAgentTools$3.class
+com\cloudtakeout\agent\tools\OrderAgentTools.class
+com\cloudtakeout\agent\repository\InMemoryChatHistoryRepository.class
+com\cloudtakeout\agent\controller\ChatHistoryController.class
+com\cloudtakeout\agent\entity\vo\MessageVO.class
+com\cloudtakeout\agent\controller\OrderAgentController.class
+com\cloudtakeout\agent\tools\OrderAgentTools$1.class
+com\cloudtakeout\agent\repository\ChatHistoryRepository.class
+com\cloudtakeout\agent\config\AgentConfiguration.class

@@ -19,6 +19,7 @@
         <module>cloud-service-user</module>
         <module>cloud-service-product</module>
         <module>cloud-service-order</module>
+        <module>cloud-service-agent</module>
     </modules>
 
     <properties>

@@ -1,0 +1,12 @@
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\config\AgentConfiguration.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\constants\SystemConstants.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\controller\ChatHistoryController.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\controller\OrderAgentController.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\entity\query\MenuQuery.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\entity\query\OrderItemRequest.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\entity\vo\MessageVO.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\entity\vo\ProductVO.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\OrderAgentApplication.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\repository\ChatHistoryRepository.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\repository\InMemoryChatHistoryRepository.java
+E:\练习\Cloud\cloud-service-agent\src\main\java\com\cloudtakeout\agent\tools\OrderAgentTools.java

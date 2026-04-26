@@ -1,7 +1,7 @@
 com\cloudtakeout\order\config\SentinelRuleConfig.class
 com\cloudtakeout\order\dto\PlaceOrderRequest.class
-com\cloudtakeout\order\config\RabbitConfig.class
 com\cloudtakeout\order\repository\OrderRepository.class
+com\cloudtakeout\order\config\RabbitConfig.class
 com\cloudtakeout\order\entity\OrderEntity.class
 com\cloudtakeout\order\client\UserClient.class
 com\cloudtakeout\order\OrderServiceApplication.class
